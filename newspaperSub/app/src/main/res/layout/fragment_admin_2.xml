@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="订单分类查询"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#ff336699"
+        />
+
+    <Button
+        android:id="@+id/select_by_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#ff336699"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="按人员查询"/>
+
+    <Button
+        android:id="@+id/select_by_department"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#ff336699"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="按部门查询"/>
+
+    <Button
+        android:id="@+id/select_by_newspaper"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#ff336699"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="按报刊查询"/>
+
+</LinearLayout>
